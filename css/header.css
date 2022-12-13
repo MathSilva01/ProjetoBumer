@@ -1,0 +1,96 @@
+header {
+    margin-bottom: 25px;
+    background-color: black;
+}
+
+header a {
+    color: white;
+}
+
+/* linha do logo   */
+#interacao {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 100px;
+}
+
+/* caixa com os conteudos da navegacao home e acesso rapido*/
+#navegacao {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+/* botao home ou pagina inicial*/
+
+#home {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home img {
+    width: 45px;
+}
+#home img:hover {
+    -moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	-moz-transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
+}
+#home a{
+    text-align: center;
+}
+
+/* menu de navegacao principal entre os conteudos da pagina */
+#barraNav {
+    width: 50%;
+    display: flex;
+}
+
+#barraNav ul {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#barraNav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#barraNav li:hover {
+    -moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+/* acesso rapido ao instagram pois eh o carro forte da marca e onde o cliente entra em contato para realizar os pedidos */
+
+#home2 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home2  ul{
+    padding: 0px;
+}
+

@@ -1,0 +1,35 @@
+footer{
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+footer a {
+    color: white;
+}
+
+.campInt {
+    width: 100%;
+    margin: 10px;
+    margin-top: 50px;
+
+}
+/* div1 Redes Sociais */
+
+.gridLogos {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+.gridRedes {
+    text-align: center;
+    justify-content: center;
+}
+
+.logoRede {
+    width: 50px;
+    padding: 0px;
+}
+
+

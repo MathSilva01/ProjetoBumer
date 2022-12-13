@@ -1,0 +1,199 @@
+main {
+    position: relative;
+    
+}
+/* Aqui esta o css da pagina inicial e index */
+main h1,h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+#titulos {
+    text-align: center;
+    justify-content: center;
+}
+
+#mainVideo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#mainVideo video {
+    width: 80%;
+}
+
+#podio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.carrosel {
+    width: 70%;
+}
+
+.camisasPodio {
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#imgCamisaBrasil {
+    height: 90%;
+    width: 70%;
+}
+
+
+/*  padrao de alinhamento das imagens das camisetas e de tamanho para manter proporcionalidade */
+.camisas {
+    margin: 15px;
+    border-radius: 10px;
+    width: 75%;
+    border: 1px solid black;
+}
+
+.gridCamisas {
+    text-align: center;
+    justify-content: center;
+}
+
+.gridCamisas img:hover {
+    -moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* aqui eh o css da camisas selecao copa do mundo */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom:150px;
+    margin-top: 200px;
+}
+
+/*  aqui eh o css da camisas selecao brasileira ela vai estar com um layout diferente das dms */
+
+.gridBrasil{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+/* Camisetas dos times sendo eles os nacionais ou internacionais eguiram o layout descrito aqui  */
+
+.gridNacional {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+#gridPodio {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#gridPodio p {
+    color: white;
+}
+
+
+/* css da pagina da copa do mundo e das selecoes onde vai apresentar quais sao os times que tem disponibilidade de estoque e quais variedades contem é uma pagina de acesso ao conteudo porem sem o conteudo em si */
+
+#layou8 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0px;background-color: white;
+    display: flex;
+}
+
+#layou8 ul {
+    width: 50%;
+    padding: 0px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#layou8 li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#layou8 li:hover {
+    -moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	-moz-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+/* esses aqui o layout de 16 clubs */
+
+#layout16 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0px;background-color: white;
+    display: flex;
+}
+
+#layout16 ul {
+    width: 90%;
+    padding: 0px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#layout16 li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#layout16 li:hover {
+    -moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	-moz-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+/* outros */
+
+#opcoes {
+    position: relative;
+}
+
+/* css da pagina do quem somos */
+
+.clientes {
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.clientes img {
+    width: 10%;
+    margin: 20px;
+}
